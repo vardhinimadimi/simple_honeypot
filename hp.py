@@ -3,9 +3,9 @@ from logging.handlers import RotatingFileHandler
 import socket
 import paramiko
 import threading
-from datetime import datetime
+from datetime import datetime 
 
-# Constants
+# Constants/
 LOG_FORMAT = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 SSH_BANNER = "SSH-2.0-MySSHServer_1.0"
 
